@@ -53,5 +53,8 @@ $route['default_controller'] = 'App';
 $route['quick-response'] = 'QuickResponse';
 $route['qr-complaint'] = 'QuickResponse/complaint';
 
+$route['admin'] = 'Admin';
+$route['admin/quick-response'] = 'Admin/quickResponse';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
